@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<artifactId>shiva-common</artifactId>
+		<groupId>com.reizes.shiva</groupId>
+		<version>1.0.0</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.reizes.shiva</groupId>
+	<artifactId>shiva-etl-dom4j</artifactId>
+	<name>Shiva ETL dom4j support module</name>
+	<version>1.0.0</version>
+	<description>Shiva ETL dom4j support module</description>
+	<dependencies>
+		<dependency>
+			<groupId>com.reizes.shiva</groupId>
+			<artifactId>shiva-utils</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.reizes.shiva</groupId>
+			<artifactId>shiva-etl-core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlrpc</groupId>
+			<artifactId>xmlrpc-client</artifactId>
+			<version>3.1.2</version>
+		</dependency>
+	</dependencies>
+</project>
